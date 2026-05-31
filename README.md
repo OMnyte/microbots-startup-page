@@ -1,13 +1,11 @@
-# MICROBOTS Startup Page
+# MICROBOTS - Pagina startup cifrata
 
-This repository contains only the encrypted public GitHub Pages artifact.
+Questa repo contiene solo l'artefatto pubblico cifrato per GitHub Pages.
 
-The readable startup document is not stored here in plaintext.
+Il documento startup in chiaro non e incluso nella repo pubblica.
 
-Security model:
+Modello:
 
-- GitHub Pages/repository is public.
-- `index.html` contains an encrypted payload.
-- The document unlocks in the browser only with the password.
-- Do not publish the password in this repository.
-
+- `index.html` contiene il reader cifrato lato client
+- la pagina e pubblica, ma il contenuto e cifrato con password
+- la password non va committata
